@@ -24,6 +24,7 @@ html {
 h1,
 h2,
 p{
+    margin: 0;
     font-size: var(--preset-size);
     font-family: var(--kumbh-sans);
 }
@@ -41,33 +42,50 @@ body{
     justify-content: center;
     height: 100vh;
 }
-
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .strong{
     font-weight: 700;
 }
 /*contenido-principal*/
 .contenido-principal{
+    background-image: url(../images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: white;
+    width: 25%;
+    border-radius: 2rem;
+    padding-bottom: 2rem;
 }
 /*user properties*/
 .user{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 9rem;
+    gap: 1rem;
     
 }
 .user-img{
-    width: 10rem;
+    width: 9rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: .4rem;
+    border-color: white;
 }
 /*data properties*/
 .data{
     display: flex;
     gap: 3rem;
     text-align: center;
+    margin-top: 5rem;
 }
 /*Frontend mentor properties*/
 .attribution { font-size: 11px; text-align: center; }
