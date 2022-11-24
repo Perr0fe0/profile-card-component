@@ -28,6 +28,7 @@ p{
     font-family: var(--kumbh-sans);
 }
 body{
+    background-color: var(--primary-dark-cyan);
     background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
     background-size: 90rem;
